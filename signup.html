@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"> <!-- Include your CSS file -->
+</head>
+<body>
+    <div class="registration-form">
+        <div class="title-bar">
+            <img src="E:\CSS Practice\Portfolio Website/curzon.png" alt="Icon"> <!-- Replace with your icon image -->
+            <h2>Registration Form</h2>
+        </div>
+        <!-- <form action="process_signup.php" method="POST"> Replace with the actual processing script -->
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="roll">Roll:</label>
+            <input type="text" id="roll" name="roll" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
